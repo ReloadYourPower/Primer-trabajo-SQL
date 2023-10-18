@@ -2,8 +2,8 @@ const mysql = require('mysql2');
 
 const connection = mysql.createConnection({
   host: 'localhost',  // Aquí debes proporcionar la dirección IP o el nombre de host de tu servidor MySQL, no el número de puerto.
-  user: 'root',
-  password: '@12Aresop23#',
+  user: 'usuario en My SQL',
+  password: 'Contraseña de tu usuario',
   database: 'gamme_schema'
 });
 
